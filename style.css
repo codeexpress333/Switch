@@ -1,0 +1,29 @@
+#switch, #circle {
+    height: 50px;
+    transition: 0.4s;
+}
+
+#switch {
+    width: 100px;
+    margin: 140px auto 0;
+    border: 2px solid #e8eaec;
+    border-radius: 27px;
+    background: #fafafb;
+}
+
+#circle {
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px rgba(26, 53, 71, 0.25), 0 0 0 1px rgba(26, 53, 71, 0.07);
+    background: #fff;
+} 
+
+#switch.active {
+    border-color: #41c955;
+    background: #52d468;
+}
+
+#switch.active #circle {
+    transform: translateX(100%);
+}
+
